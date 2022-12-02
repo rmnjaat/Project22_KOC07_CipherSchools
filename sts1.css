@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  'Lato', sans-serif;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 120vh;
+    
+    
+}
+
+.inner-box{
+    width:280px;
+    margin: 0 auto;
+    margin-top: 11%;
+    /* transform: translateY(50%); */
+    padding: 20px 40px;
+    border-radius: 12px;
+    /* background-color: rgb(220, 220, 220); */
+    box-shadow: 3px 3px 3px 5px grey;
+    z-index:1;
+}
+
+.login-header{
+    font-size: 2rem;
+    color: rgb(32, 32, 32);
+}
+
+.loginbody{
+    margin: 20px 0px;
+}
+
+.loginbody p{
+    margin: 15px 0px;
+}
+
+.loginbody p label{
+    display:block;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 4px;
+}
+
+.loginbody p input{
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 0;
+    padding: 2px;
+    border:2px solid gray;
+    border-radius: 10px;
+}
+
+.loginbody p input[type="submit"]{
+    cursor: pointer;
+    padding: 8px 0;
+    background-color: #c1c0c0;
+    color: black;
+    border: none;
+}
+
+.loginbody p input[type="submit"]:hover{
+    
+    background-color:#717171 ;
+    color: white;
+
+
+}
+
+.rr{
+    display: block;
+    margin-left: 80px;
+    
+}
+.rr:hover{
+    padding: 5px 0;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background:linear-gradient(to top right ,#8d99ae,#ffffffaa);
+    position: absolute;
+    
+ }
+ 
+.c1{ 
+    top: 100px;
+    left: 40px;
+
+}
+.c2{
+    top:600px;
+    right:100px;
+}
+.c4{
+    top:10px;
+    right:400px
+}
